@@ -1,25 +1,12 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome our test Website!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
-
-print('welcome')
+	<!-- Primary Menu -->
+			<div class="module menu left">
+				<ul id="nav-primary" class="nav nav-primary">
+					<li><a href="#home">Start</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
